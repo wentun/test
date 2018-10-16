@@ -1,0 +1,49 @@
+#skin{
+	width: 43%;
+	height: 47%;
+	border: 1px solid #ccc;
+	position: absolute;
+	display: none;
+	z-index: 9999;
+	background: #fff;
+	
+}
+
+#skin h2{
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	font-size: 24px;
+	letter-spacing: 1px;
+	color: #666;
+	background-color: #eee;
+	margin: 0;
+	padding: 0;
+	border-bottom:1px solid #ccc;
+	cursor: move;  
+	font-family: "楷体";
+}
+#skin dl{
+	float: left;
+	padding: 20px 0 0 25px;
+	margin-bottom: 0px;
+}
+#skin dl dt{
+	display: block;
+	cursor: pointer;
+}
+#skin dl dd{
+	text-align: center;
+	letter-spacing: 1px;
+}
+#skin h2 img{
+	float: right;
+	position: relative;
+	top: 14px;
+	right: 8px;
+	cursor: pointer;
+}
+
+.close-local{
+	margin: 8px 5px 0 0; 
+}

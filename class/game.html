@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+	<title></title>
+	<link rel="stylesheet"  href="../css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/项目.css">
+	<link rel="stylesheet" type="text/css" href="../css/2048.css">
+	<link rel="stylesheet" type="text/css" href="../css/换肤.css">
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<a href="" class="navbar-brand tou" ><img src="image/tou2.jpg"></a>
+				<button class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse"><span class="glyphicon glyphicon-list"></span></button>
+			</div>
+			<div class="collapse navbar-collapse"  id="navbar-collapse" >
+				<ul class="nav navbar-nav navbar-right daohang" >
+					<li ><a href="项目.html"><span class="glyphicon glyphicon-star"></span> 开始</a></li>
+					<li><a href="develop.html"><span class="glyphicon glyphicon-signal"></span> 发展 </a></li>
+					<li><a href="resoult.html"> <span class="glyphicon glyphicon-bookmark"></span>外卖</a></li>
+					<li class="active"><a href="game.html"><span  class="glyphicon glyphicon-send"></span> 游戏</a></li>
+					<li><a href="end.html"><span  class="glyphicon glyphicon-record"></span> 结束</a></li>
+					<li><a href="" data-toggle="dropdown"><span  class="glyphicon glyphicon-record"></span> 个人中心<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#kai">注册</a></li>
+						<li><a href="#zhong">登录</a></li>
+						<li><a href="javascript:change();">换肤</a></li>
+					</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div id="screen"></div>
+	<div id="skin" >
+		<h2 >更换皮肤<button class="close close-local" onclick="guan()"><span class="glyphicon glyphicon-remove"></span></button></h2>
+		<dl class="lou">
+			<dt><img src="image/smalllou.jpg"></dt>
+			<dd>水楼皮肤</dd>
+		</dl>
+		<dl class="shui">
+			<dt><img src="image/smallshui.jpg"></dt>
+			<dd>水墨皮肤</dd>
+		</dl>
+		<dl class="xian">
+			<dt><img src="image/smallxian.jpg"></dt>
+			<dd>线皮肤</dd>
+		</dl>
+		<dl class="yun">
+			<dt><img src="image/smallyun.jpg"></dt>
+			<dd>水云皮肤</dd>
+		</dl>
+	</div>
+
+	<header>
+		<h1>2048</h1>
+		<a href="javascript:newgame();" id="newgamebutton">New game</a>
+		<p>Score:<span id="score">0</span></p>
+	</header>
+	<div id="grid-container">
+		<div class="grid-cell" id="grid-cell-0-0"> </div>
+		<div class="grid-cell" id="grid-cell-0-1"> </div>
+		<div class="grid-cell" id="grid-cell-0-2"> </div>
+		<div class="grid-cell" id="grid-cell-0-3"> </div>
+
+		<div class="grid-cell" id="grid-cell-1-0"> </div>
+		<div class="grid-cell" id="grid-cell-1-1"> </div>
+		<div class="grid-cell" id="grid-cell-1-2"> </div>
+		<div class="grid-cell" id="grid-cell-1-3"> </div>
+
+		<div class="grid-cell" id="grid-cell-2-0"> </div>
+		<div class="grid-cell" id="grid-cell-2-1"> </div>
+		<div class="grid-cell" id="grid-cell-2-2"> </div>
+		<div class="grid-cell" id="grid-cell-2-3"> </div>
+
+		<div class="grid-cell" id="grid-cell-3-0"> </div>
+		<div class="grid-cell" id="grid-cell-3-1"> </div>
+		<div class="grid-cell" id="grid-cell-3-2"> </div>
+		<div class="grid-cell" id="grid-cell-3-3"> </div>
+	</div>
+	
+	<footer id="footer" >
+		<div class="container">
+			<p>心动就赶快订餐吧</p>
+			<P>订餐电话3031188</P>	
+		</div>
+	</footer>
+<script src="../js/jquery.min.js"></script>	
+<script src="../js/bootstrap.min.js"></script>
+<script type="text/javascript" src="../js/showanimation2048.js"></script>
+<script type="text/javascript" src="../js/support.js"></script>
+<script type="text/javascript" src="../js/mian.js"></script>
+<script src="项目.js"></script>
+</body>
+</html>

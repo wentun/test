@@ -1,0 +1,32 @@
+.nav-pills{
+	width: 210px;
+	text-align: center;
+	margin-top: 45%;
+	font-size: 15px;
+	color: #666;
+}
+.nav-pills.affix{
+	margin-top:5%;
+}
+.nav-pills a:focus{
+	outline: none;
+}
+h1{
+	height: 50px;
+	border-bottom:2px solid #ccc;
+}
+@media(min-width: 168px){
+	#myScrollspy li{
+		width: 35px;
+	}
+}
+@media(min-width: 568px){
+	#myScrollspy li{
+		width: 135px;
+	}
+}
+@media(min-width: 992px){
+	#myScrollspy li{
+		width: 235px;
+	}
+}

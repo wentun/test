@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+	<title></title>
+	<link rel="stylesheet"  href="../css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/项目.css">
+	<link rel="stylesheet" type="text/css" href="../css/换肤.css">
+</head>
+<body>
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<a href="" class="navbar-brand tou" ><img src="image/tou2.jpg"></a>
+				<button class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse"><span class="glyphicon glyphicon-list"></span></button>
+			</div>
+			<div class="collapse navbar-collapse "  id="navbar-collapse" >
+				<ul class="nav navbar-nav navbar-right daohang" >
+					<li class="active"><a href="项目.html"><span class="glyphicon glyphicon-star"></span> 开始</a></li>
+					<li><a href="develop.html"><span class="glyphicon glyphicon-signal"></span> 发展 </a></li>
+					<li><a href="resoult.html"> <span class="glyphicon glyphicon-bookmark"></span>外卖</a></li>
+					<li><a href="game.html"><span  class="glyphicon glyphicon-send"></span> 游戏</a></li>
+					<li><a href="end.html"><span  class="glyphicon glyphicon-record"></span> 结束</a></li>
+					<li><a href="" data-toggle="dropdown"><span  class="glyphicon glyphicon-record"></span> 个人中心<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="#kai">注册</a></li>
+						<li><a href="#zhong">登录</a></li>
+						<li><a href="javascript:change();">换肤</a></li>
+					</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<div id="screen"></div>
+	<div id="skin" >
+		<h2 >更换皮肤<button class="close close-local" onclick="guan()"><span class="glyphicon glyphicon-remove"></span></button></h2>
+		<dl class="lou">
+			<dt><img src="image/smalllou.jpg"></dt>
+			<dd>水楼皮肤</dd>
+		</dl>
+		<dl class="shui">
+			<dt><img src="image/smallshui.jpg"></dt>
+			<dd>水墨皮肤</dd>
+		</dl>
+		<dl class="xian">
+			<dt><img src="image/smallxian.jpg"></dt>
+			<dd>线皮肤</dd>
+		</dl>
+		<dl class="yun">
+			<dt><img src="image/smallyun.jpg"></dt>
+			<dd>水云皮肤</dd>
+		</dl>
+	</div>
+
+	<!-- <div id="myCarousel" class="carousel silde" >
+		<ol class="carousel-indicators">
+			<li class="active" data-target="#myCarousel" data-slide-to="0"></li>
+			<li data-target="#myCarousel" data-slide-to="1"></li>
+			<li data-target="#myCarousel" data-slide-to="2"></li>
+		</ol>
+		<div class="carousel-inner play">
+			<div class="item active" >
+				<img src="image/bj1.jpg" alt="">
+			</div>	
+			<div class="item">
+				<img src="image/bj2.jpg" alt="">
+			</div >
+			<div class="item">
+				<img src="image/bj3.jpg" alt="">
+			</div>
+			
+		</div>
+		<a href="#myCarousel" data-slide="prev" class="carousel-control left " ><span class="glyphicon glyphicon-chevron-left" ></span></a>
+			<a href="#myCarousel" id="shi" data-slide="next" class="carousel-control right" ><span class="glyphicon glyphicon-chevron-right" ></span></a>
+	</div>
+ -->
+	
+	<div class="tab1">
+		<div class="container"> 
+			<h2 class="tab-h2">【欢迎来到我的世界】</h2>
+			<p class="tab-p">我的世界由自己构成，玩家可自我构造一个自己的世界</p>
+			<div class="row">
+				<div class="col-md-6 col">
+					<div class="media">
+						<div class="media-left">
+							<a href=""><img src="image/chuan1.jpg" class="media-object"></a>
+						</div>
+						<div class="media-body">
+							<h4 class="media-heading">德国烤肉</h4>
+							<p class="text-muted">这是一段简介</p>
+							<p>阿斯蒂芬</p>
+						</div>	
+					</div>
+				</div>
+				<div class="col-md-6 col">
+					<div class="media">
+						<div class="media-left">
+							<a href=""><img src="image/hun1.jpg" class="media-object"></a>
+						</div>
+						<div class="media-body">
+							<h4 class="media-heading">俄罗斯火腿</h4>
+							<p class="text-muted">这是一段简介</p>
+							<p></p>
+						</div>	
+					</div>
+				</div>
+				<div class="col-md-6 col">
+					<div class="media">
+						<div class="media-left">
+							<a href=""><img src="image/shala1.jpg" class="media-object"></a>
+						</div>
+						<div class="media-body">
+							<h4 class="media-heading">水果沙拉</h4>
+							<p class="text-muted">这是一段简介</p>
+							<p></p>
+						</div>	
+					</div>
+				</div>
+				<div class="col-md-6 col">
+					<div class="media">
+						<div class="media-left">
+							<a href=""><img src="image/daxia1.jpg" class="media-object"></a>
+						</div>
+						<div class="media-body">
+							<h4 class="media-heading">澳洲大虾</h4>
+							<p class="text-muted">这是一段简介</p>
+							<p></p>
+						</div>	
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="tab2">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-sm-6 tab2-img">
+					<img src="image/juewei.jpg" class="img-responsive center-block">
+				</div>
+				<div class="col-md-6 col-sm-6 text tab2-text">
+					<h3>爵位牛肉</h3>
+					<p>非常好吃从美国进口纯手工制作无烟烧烤泽瑞务必士大夫士大夫的发达</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<div class="tab3">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6 col-sm-6">
+					<img src="image/juewei.jpg" class="img-responsive center-block">
+				</div>
+				<div class="col-md-6 col-sm-6 text">
+					<h3>爵位牛肉</h3>
+					<p>非常好吃从美国进口纯手工制作无烟烧烤泽瑞务必士大夫士大夫的发达</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+
+	<footer id="footer">
+		<div class="container">
+			<p>心动就赶快订餐吧</p>
+			<P>订餐电话3031188</P>	
+		</div>
+	</footer>
+<script src="../js/jquery.min.js"></script>	
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/项目.js"></script>
+</body>
+</html>
