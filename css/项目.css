@@ -6,7 +6,7 @@ body{
 }
 #myCarousel{
 	width: 55%;
-	margin: 75px auto;	
+	margin: 75px auto;
 	margin-bottom: 15px;
 }
 .tou{
@@ -30,7 +30,7 @@ body{
 	color: #999;
 	text-align: center;
 	letter-spacing: 1px;
-	margin: 20px 0 40px 0;
+	margin: 20px 0 20px 0;
 
 }
 .tab1{
@@ -46,10 +46,10 @@ body{
 }
 .tab1 .col{
 	padding: 20px;
-	/*background-color: #ccc;*/ 
+	/*background-color: #ccc;*/
 }
 .tab2{
-	
+
 	padding: 40px 40px;
 	text-align: center;
 }
@@ -74,11 +74,18 @@ body{
 hgroup{
 	color: #ccc;
 	padding: 0;
-	margin: 0; 
+	margin: 0;
 }
 #message{
 	margin-top: 15px;
 	margin-bottom: 20px;
+}
+.we{
+	border: solid;
+	width: 100%;
+	height: 600px;
+  overflow: hidden;
+  -webkit-perspective:800px;
 }
 .row-bg{
 	background-color: #fff;
@@ -95,27 +102,27 @@ hgroup{
 }
 .col-right{
 	background-color: 	#fff;
-	box-shadow: 2px 2px 2px #ccc; 
+	box-shadow: 2px 2px 2px #ccc;
 	/*padding: 0;*/
 }
 .col-right blockquote{
-	margin:0; 
+	margin:0;
 	padding: 0;
 
 }
 .col-right blockquote h2{
 	font-size: 20px;
-	color: #333;  		
-	margin:0; 
+	color: #333;
+	margin:0;
 	padding: 5px;
 }
 .panel{
-	margin:15px auto; 
+	margin:15px auto;
 }
 
 .local{
-	
-	margin-bottom: 5px; 
+
+	margin-bottom: 5px;
 }
 #case{
 	/*padding: 25px 0 ;*/
@@ -131,7 +138,7 @@ hgroup{
 .caseh1{
 	font-family: 楷体;
 	font-weight: bolder;
-	margin:0 0 25px 0; 
+	margin:0 0 25px 0;
 	font-size: 45px;
 }
 .endzuo{
@@ -150,7 +157,7 @@ hgroup{
 	background-color: #eee;
 	border-top:1px solid #ccc;
 	padding: 20px;
-	text-align: center; 
+	text-align: center;
 }
 #screen {
 	position:absolute;
@@ -182,7 +189,7 @@ hgroup{
 	font-size: 20px;
 	color: #666;
 	font-weight: bolder;
-	background-color: #eee; 
+	background-color: #eee;
 	margin:0;
 }
 .picclose{
@@ -241,12 +248,12 @@ hgroup{
 		float: left;
 	}
 	.tab2-img{
-		float: right;	
+		float: right;
 	}
 	.jumbotron h2{
 		padding-top: 15px;
 	}
-	
+
 }
 @media(min-width: 992px){
 	.tab-h2{
