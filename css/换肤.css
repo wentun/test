@@ -1,12 +1,11 @@
 #skin{
-	width: 43%;
-	height: 47%;
+	width: 680px;
+	height: 345px;
 	border: 1px solid #ccc;
 	position: absolute;
 	display: none;
 	z-index: 9999;
 	background: #fff;
-	
 }
 
 #skin h2{
@@ -20,30 +19,88 @@
 	margin: 0;
 	padding: 0;
 	border-bottom:1px solid #ccc;
-	cursor: move;  
+	cursor: move;
 	font-family: "楷体";
 }
-#skin dl{
-	float: left;
-	padding: 20px 0 0 25px;
-	margin-bottom: 0px;
+#skin p{
+	margin: 5px 0 0 35px;
+	display: inline-block;
+	font-family: "NSimSun";
+	font-weight: bold;
 }
-#skin dl dt{
-	display: block;
-	cursor: pointer;
+#skin .row .thumbnail button{
+	margin-left: 40px;
 }
-#skin dl dd{
-	text-align: center;
-	letter-spacing: 1px;
-}
-#skin h2 img{
-	float: right;
-	position: relative;
-	top: 14px;
-	right: 8px;
-	cursor: pointer;
+#skin .row img{
+	width: 250px;
+	height: 90px;
+	margin: 0;
 }
 
+
 .close-local{
-	margin: 8px 5px 0 0; 
+	margin: 8px 5px 0 0;
+}
+
+.login{
+	width: 334px;
+	height: 310px;
+	border: 1px solid #ccc;
+	position: absolute;
+	display: none;
+	z-index: 9999;
+	background: #fff;
+	right: 5%;
+}
+.login h3{
+	margin: 0 0 35px 0;
+	padding: 0;
+	height: 50px;
+	background-color: #f9fbfe;
+	text-align: center;
+	line-height: 50px;
+}
+.login input{
+	width: 70%;
+	margin: auto;
+}
+.login .btn{
+	width: 70%;
+	height: 45%;
+	margin-left: 15%;
+	margin-top: 15px;
+	margin-bottom: 31px;
+}
+.nothing{
+	padding: 0 27px 5px 0;
+	text-align: right;
+}
+.register{
+	width: 334px;
+	height: 380px;
+	border: 1px solid #ccc;
+	position: absolute;
+	display: none;
+	z-index: 9999;
+	background: #fff;
+	right: 5%;
+}
+.register h3{
+	margin: 0 0 35px 0;
+	padding: 0;
+	height: 50px;
+	background-color: #f9fbfe;
+	text-align: center;
+	line-height: 50px;
+}
+.register input{
+	width: 70%;
+	margin: auto;
+}
+.register .btn{
+	width: 70%;
+	height: 45%;
+	margin-left: 15%;
+	margin-top: 15px;
+	margin-bottom: 31px;
 }

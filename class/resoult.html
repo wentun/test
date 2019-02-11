@@ -7,8 +7,9 @@
 	<link rel="stylesheet"  href="../css/bootstrap.min.css">
 	<link rel="stylesheet" type="text/css" href="../css/项目.css">
 	<link rel="stylesheet" type="text/css" href="../css/换肤.css">
+	<link rel="stylesheet" type="text/css" href="../css/resoult.css">
 </head>
-<body>
+<body data-spy="scroll" data-target="#car">
 	<nav class="navbar navbar-default navbar-fixed-top">
 		<div class="container">
 			<div class="navbar-header">
@@ -20,7 +21,7 @@
 					<li ><a href="项目.html"><span class="glyphicon glyphicon-star"></span> 开始</a></li>
 					<li ><a href="develop.html"><span class="glyphicon glyphicon-signal"></span> 发展 </a></li>
 					<li class="active"><a href="resoult.html"> <span class="glyphicon glyphicon-bookmark"></span>外卖</a></li>
-					<li><a href="game.html"><span  class="glyphicon glyphicon-send"></span> 游戏</a></li>
+					<li><a href="comment.html"><span  class="glyphicon glyphicon-send"></span> 游戏</a></li>
 					<li><a href="end.html"><span  class="glyphicon glyphicon-record"></span> 结束</a></li>
 					<li><a href="" data-toggle="dropdown"><span  class="glyphicon glyphicon-record"></span> 个人中心<span class="caret"></span></a>
 					<ul class="dropdown-menu">
@@ -33,192 +34,371 @@
 			</div>
 		</div>
 	</nav>
-	
+
 	<div id="screen"></div>
 	<div id="skin" >
 		<h2 >更换皮肤<button class="close close-local" onclick="guan()"><span class="glyphicon glyphicon-remove"></span></button></h2>
-		<dl  class="lou">
-			<dt><img src="image/smalllou.jpg"></dt>
-			<dd>水楼皮肤</dd>
-		</dl>
-		<dl  class="shui">
-			<dt><img src="image/smallshui.jpg"></dt>
-			<dd>水墨皮肤</dd>
-		</dl>
-		<dl  class="xian">
-			<dt><img src="image/smallxian.jpg"></dt>
-			<dd>线皮肤</dd>
-		</dl>
-		<dl   class="yun">
-			<dt><img src="image/smallyun.jpg"></dt>
-			<dd>水云皮肤</dd>
-		</dl>
+			<form class="" action="index.html" method="post">
+				<div class="row">
+					<div class="col-xs-12 col-sm-6 col-md-4">
+						<div class="thumbnail">
+							<img src="image/smalllou.jpg">
+							<p>水楼皮肤</p>
+							<button type="button" class="btn btn-default btn-sm">确定</button>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-4">
+						<div class="thumbnail">
+							<img src="image/smallshui.jpg">
+							<p>水墨皮肤</p>
+							<button type="button" class="btn btn-default btn-sm">确定</button>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-4">
+						<div class="thumbnail">
+							<img src="image/smallxian.jpg">
+							<p>水线皮肤</p>
+							<button type="button" class="btn btn-default btn-sm">确定</button>
+						</div>
+					</div>
+					<div class="col-xs-12 col-sm-6 col-md-4">
+						<div class="thumbnail">
+							<img src="image/smallyun.jpg">
+							<p>水云皮肤</p>
+							<button type="button" class="btn btn-default btn-sm">确定</button>
+						</div>
+					</div>
+				</div>
+			</form>
 	</div>
-
-	<!-- <div class="jumbotron">
-		<div class="container">
-			<hgroup>
-			<h2>现状</h2>
-			<p>现以加入美团外卖，赶快疯狂抢购吧</p>
-			</hgroup>
-		</div>
-	</div> -->
-
+	<!-- 轮播器 -->
 	<div id="myCarousel" class="carousel silde" >
 		<ol class="carousel-indicators">
 			<li class="active" data-target="#myCarousel" data-slide-to="0"></li>
 			<li data-target="#myCarousel" data-slide-to="1"></li>
 			<li data-target="#myCarousel" data-slide-to="2"></li>
+			<li data-target="#myCarousel" data-slide-to="3"></li>
+			<li data-target="#myCarousel" data-slide-to="4"></li>
 		</ol>
 		<div class="carousel-inner play">
 			<div class="item active" >
-				<img src="image/bj1.jpg" alt="">
-			</div>	
-			<div class="item">
 				<img src="image/bj2.jpg" alt="">
+			</div>
+			<div class="item">
+				<img src="image/bj1.jpg" alt="">
 			</div >
 			<div class="item">
 				<img src="image/bj3.jpg" alt="">
 			</div>
-			
+			<div class="item">
+				<img src="image/bj4.jpg" alt="">
+			</div>
+			<div class="item">
+				<img src="image/bj5.jpg" alt="">
+			</div>
 		</div>
 		<a href="#myCarousel" data-slide="prev" class="carousel-control left " ><span class="glyphicon glyphicon-chevron-left" ></span></a>
 			<a href="#myCarousel" id="shi" data-slide="next" class="carousel-control right" ><span class="glyphicon glyphicon-chevron-right" ></span></a>
 	</div>
+<!-- 购物车 -->
+	<div id="car">
+		<ul class="car"  data-spy="affix" >
+			<button type="button" name="button" class="btn btn-primary btn-lg">
+				<span class="glyphicon glyphicon-shopping-cart"></span>我的购物车
+				<span class="badge"></span>
+			</button>
+			<div class="buycar">
+		  	<table class="table  table-striped">
+			  	<tr>
+			     	<th>菜名</th>
+			      <th>数量</th>
+			    </tr>
+	  		</table>
+			</div>
+			<button type="button" name="button" class="btn btn-info btn-lg savesql">
+				<span class="glyphicon glyphicon-log-in"></span>
+			</button>
+			<button type="button" name="button" class="btn btn-danger btn-lg clearcar">
+				<span class="glyphicon glyphicon-trash"></span>
+			</button>
+		</ul>
+	</div>
 
-
-
+<!-- 展示物品区域 -->
 	<div id="case" >
 		<div class="container">
-			<h1 class="caseh1">美食图集</h1>
+			<h1 class="caseh1">生活摄影图集</h1>
 			<div class="row">
 				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 					<div class="thumbnail" >
 						<img src="image/daxia.jpg" >
-						<div class="caption">
-							<h4>澳洲大虾</h4>
-							<p>起源于澳洲为没扣值得一尝</p>
+						<div class="many"></div>
+						<div class="row">
+							<div class="col-md-8 col-sm-8 col-xs-12">
+								<h4>澳洲大虾</h4>
+								<p>起源于澳洲肉质鲜嫩可口，值得一尝</p>
+							</div>
+							<div class="col-md-4 col-sm-4 col-xs-12 adddelete">
+									<button type="button" name="button" class="btn btn-default minus">
+										<span class="glyphicon glyphicon-minus"></span>
+									</button>
+									<button type="button" name="button" class="btn btn-default add">
+										<span class="glyphicon glyphicon-plus"></span>
+									</button>
+							</div>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 					<div class="thumbnail" >
 						<img src="image/shala.jpg" >
-						<div class="caption">
-							<h4>水果沙拉</h4>
-							<p>年轻人的最爱</p>
+						<div class="many"></div>
+						<div class="row">
+							<div class="col-md-8 col-sm-8 col-xs-12">
+								<h4>水果沙拉</h4>
+								<p>年轻人的最爱，经常作为饭后点心</p>
+							</div>
+							<div class="col-md-4 col-sm-4 col-xs-12 adddelete">
+									<button type="button" name="button" class="btn btn-default minus">
+										<span class="glyphicon glyphicon-minus"></span>
+									</button>
+									<button type="button" name="button" class="btn btn-default add">
+										<span class="glyphicon glyphicon-plus"></span>
+									</button>
+							</div>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 					<div class="thumbnail">
 						<img src="image/hun.jpg">
-						<div class="caption">
-							<h4>俄罗斯香肠</h4>
-							<p>拍难以好吃还是外国货</p>
+						<div class="many"></div>
+						<div class="row">
+							<div class="col-md-8 col-sm-8 col-xs-12">
+								<h4>俄罗斯香肠</h4>
+								<p>肉质鲜嫩，香脆酥滑，让人有一品的冲动</p>
+							</div>
+							<div class="col-md-4 col-sm-4 col-xs-12 adddelete">
+									<button type="button" name="button" class="btn btn-default minus">
+										<span class="glyphicon glyphicon-minus"></span>
+									</button>
+									<button type="button" name="button" class="btn btn-default add">
+										<span class="glyphicon glyphicon-plus"></span>
+									</button>
+							</div>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 					<div class="thumbnail">
 						<img src="image/juewei.jpg">
-						<div class="caption">
-							<h4>德国牛排</h4>
-							<p>经典小火慢考味美多汁嚼劲十足</p>
+						<div class="many"></div>
+						<div class="row">
+							<div class="col-md-8 col-sm-8 col-xs-12">
+								<h4>德国牛排</h4>
+								<p>经典经典小火慢考味美多汁嚼劲十足</p>
+							</div>
+							<div class="col-md-4 col-sm-4 col-xs-12 adddelete">
+									<button type="button" name="button" class="btn btn-default minus">
+										<span class="glyphicon glyphicon-minus"></span>
+									</button>
+									<button type="button" name="button" class="btn btn-default add">
+										<span class="glyphicon glyphicon-plus"></span>
+									</button>
+							</div>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 					<div class="thumbnail">
-						<img src="image/shala.jpg">
-						<div class="caption">
-							<h4>水果沙拉</h4>
-							<p>年轻人的最爱</p>
+						<img src="image/xiongmao.jpg">
+						<div class="many"></div>
+						<div class="row">
+							<div class="col-md-8 col-sm-8 col-xs-12">
+								<h4>大熊猫</h4>
+								<p>熊猫是我国的国宝，体态憨厚，惹人喜爱</p>
+							</div>
+							<div class="col-md-4 col-sm-4 col-xs-12 adddelete">
+									<button type="button" name="button" class="btn btn-default minus">
+										<span class="glyphicon glyphicon-minus"></span>
+									</button>
+									<button type="button" name="button" class="btn btn-default add">
+										<span class="glyphicon glyphicon-plus"></span>
+									</button>
+							</div>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 					<div class="thumbnail">
-						<img src="image/juewei.jpg">
-						<div class="caption">
-							<h4>德国牛排</h4>
-							<p>经典小火慢考味美多汁嚼劲十足</p>
+						<img src="image/baihu.jpg">
+						<div class="many"></div>
+						<div class="row">
+							<div class="col-md-8 col-sm-8 col-xs-12">
+								<h4>西伯利亚白虎</h4>
+								<p>白色皮毛让他成为全球高贵、稀缺物种</p>
+							</div>
+							<div class="col-md-4 col-sm-4 col-xs-12 adddelete">
+									<button type="button" name="button" class="btn btn-default minus">
+										<span class="glyphicon glyphicon-minus"></span>
+									</button>
+									<button type="button" name="button" class="btn btn-default add">
+										<span class="glyphicon glyphicon-plus"></span>
+									</button>
+							</div>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 					<div class="thumbnail">
-						<img src="image/chuan.jpg">
-						<div class="caption">
-							<h4>德国烤肉</h4>
-							<p>经典小火慢考味美多汁嚼劲十足</p>
+						<img src="image/konglong.jpg">
+						<div class="many"></div>
+						<div class="row">
+							<div class="col-md-8 col-sm-8 col-xs-12">
+								<h4>恐龙</h4>
+								<p>地球曾经的霸主，现以灭绝，难以看到实物</p>
+							</div>
+							<div class="col-md-4 col-sm-4 col-xs-12 adddelete">
+									<button type="button" name="button" class="btn btn-default minus">
+										<span class="glyphicon glyphicon-minus"></span>
+									</button>
+									<button type="button" name="button" class="btn btn-default add">
+										<span class="glyphicon glyphicon-plus"></span>
+									</button>
+							</div>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 					<div class="thumbnail">
-						<img src="image/hun.jpg">
-						<div class="caption">
-							<h4>俄罗斯香肠</h4>
-							<p>拍难以好吃还是外国货</p>
+						<img src="image/haitun.jpg">
+						<div class="many"></div>
+						<div class="row">
+							<div class="col-md-8 col-sm-8 col-xs-12">
+								<h4>汪洋海豚</h4>
+								<p>据传它们的智慧仅次于人类，非常的友善</p>
+							</div>
+							<div class="col-md-4 col-sm-4 col-xs-12 adddelete">
+									<button type="button" name="button" class="btn btn-default minus">
+										<span class="glyphicon glyphicon-minus"></span>
+									</button>
+									<button type="button" name="button" class="btn btn-default add">
+										<span class="glyphicon glyphicon-plus"></span>
+									</button>
+							</div>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 					<div class="thumbnail">
-						<img src="image/daxia.jpg">
-						<div class="caption">
-							<h4>澳洲大虾</h4>
-							<p>起源于澳洲为没扣值得一尝</p>
+						<img src="image/yekong.jpg">
+						<div class="many"></div>
+						<div class="row">
+							<div class="col-md-8 col-sm-8 col-xs-12">
+								<h4>静夜星空</h4>
+								<p>夜晚的精密，群星的闪耀，人们心之所向</p>
+							</div>
+							<div class="col-md-4 col-sm-4 col-xs-12 adddelete">
+									<button type="button" name="button" class="btn btn-default minus">
+										<span class="glyphicon glyphicon-minus"></span>
+									</button>
+									<button type="button" name="button" class="btn btn-default add">
+										<span class="glyphicon glyphicon-plus"></span>
+									</button>
+							</div>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 					<div class="thumbnail">
-						<img src="image/shala.jpg">
-						<div class="caption">
-							<h4>水果沙拉</h4>
-							<p>年轻人的最爱</p>
+						<img src="image/yuanzi.jpg">
+						<div class="many"></div>
+						<div class="row">
+							<div class="col-md-8 col-sm-8 col-xs-12">
+								<h4>别致小院</h4>
+								<p>院落是童年的记忆，在这都市化的现代难以看到</p>
+							</div>
+							<div class="col-md-4 col-sm-4 col-xs-12 adddelete">
+									<button type="button" name="button" class="btn btn-default minus">
+										<span class="glyphicon glyphicon-minus"></span>
+									</button>
+									<button type="button" name="button" class="btn btn-default add">
+										<span class="glyphicon glyphicon-plus"></span>
+									</button>
+							</div>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 					<div class="thumbnail">
-						<img src="image/juewei.jpg">
-						<div class="caption">
-							<h4>德国牛排</h4>
-							<p>经典小火慢考味美多汁嚼劲十足</p>
+						<img src="image/shangchang.jpg">
+						<div class="many"></div>
+						<div class="row">
+							<div class="col-md-8 col-sm-8 col-xs-12">
+								<h4>繁华商场</h4>
+								<p>光彩夺目的购物中心是现在年轻人的最爱</p>
+							</div>
+							<div class="col-md-4 col-sm-4 col-xs-12 adddelete">
+									<button type="button" name="button" class="btn btn-default minus">
+										<span class="glyphicon glyphicon-minus"></span>
+									</button>
+									<button type="button" name="button" class="btn btn-default add">
+										<span class="glyphicon glyphicon-plus"></span>
+									</button>
+							</div>
 						</div>
 					</div>
 				</div>
 				<div class="col-lg-3 col-md-4 col-sm-6 col-xs-12">
 					<div class="thumbnail">
-						<img src="image/chuan.jpg">
-						<div class="caption">
-							<h4>德国烤肉</h4>
-							<p>经典小火慢考味美多汁嚼劲十足</p>
+						<img src="image/gaoerfu.jpg">
+						<div class="many"></div>
+							<div class="row">
+								<div class="col-md-8 col-sm-8 col-xs-12">
+									<h4>高尔夫球场</h4>
+									<p>高端，典雅，贵态，优先，舒适的休闲运动</p>
+								</div>
+								<div class="col-md-4 col-sm-4 col-xs-12 adddelete">
+										<button type="button" name="button" class="btn btn-default minus">
+											<span class="glyphicon glyphicon-minus"></span>
+										</button>
+										<button type="button" name="button" class="btn btn-default add">
+											<span class="glyphicon glyphicon-plus"></span>
+										</button>
+								</div>
 						</div>
 					</div>
 				</div>
-				
-			</div>
 		</div>
-
 	</div>
-	
+
 	<div class="picplace">
 	<p></p>
-	<div ></div>
+	<div></div>
 	</div>
 
 	<footer id="footer">
 		<div class="container">
 			<p>心动就赶快订餐吧</p>
-			<P>订餐电话3031188</P>	
+			<P>订餐电话3031188</P>
 		</div>
 	</footer>
-<script src="../js/jquery.min.js"></script>	
+<script src="../js/jquery.min.js"></script>
 <script src="../js/bootstrap.min.js"></script>
 <script src="../js/项目.js"></script>
+<script src="../js/resoult.js"></script>
+<script type="text/javascript">
+$("#car .savesql").click(function () {
+		// var t_buycar = $(".buycar table tr:nth-child(2) td:nth-child(2)").text();
+		var le = $(".buycar table").find("tr").length ;
+	 alert(le)
+	});
+	$("#car .clearcar").click(function () {
+		alert("清除成功");
+	 	$(".badge").text(0);
+	 	$("table tr:gt(0)").empty();
+		$(".many").text("");
+		});
+</script>
 </body>
 </html>

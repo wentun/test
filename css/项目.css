@@ -5,7 +5,7 @@ body{
 	background-repeat: no-repeat;
 }
 #myCarousel{
-	width: 55%;
+	width: 85%;
 	margin: 75px auto;
 	margin-bottom: 15px;
 }
@@ -54,8 +54,10 @@ body{
 	text-align: center;
 }
 .tab2 img{
-	width: 60%;
-	height: 60%;
+	width: 80%;
+	height: 80%;
+	border: 4px solid #eee;
+	border-radius: 5px 5px;
 }
 .tab3{
 	padding: 30px 20px;
@@ -64,6 +66,8 @@ body{
 .tab3 img{
 	width: 85%;
 	height: 85%;
+	border: 4px solid #eee;
+	border-radius: 5px 5px;
 }
 .jumbotron{
 	/*background-image: url(image/person.jpg);*/
@@ -124,23 +128,7 @@ hgroup{
 
 	margin-bottom: 5px;
 }
-#case{
-	/*padding: 25px 0 ;*/
-	/*background-color: #eee;*/
-	text-align: center;
-}
-#case h4{
-	color: #666;
-}
-#case p{
-	color: #666;
-}
-.caseh1{
-	font-family: 楷体;
-	font-weight: bolder;
-	margin:0 0 25px 0;
-	font-size: 45px;
-}
+
 .endzuo{
 	background-color: #eee;
 	padding: 40px 0;
@@ -169,38 +157,7 @@ hgroup{
 	opacity:0.7;
 	display:none;
 }
-.picplace{
-	height: 60%;
-	width: 45%;
-	border: 1px solid #ccc;
-	position: absolute;
-	display: none;
-	z-index: 9999;
-	background: #fff;
-}
-.picplace div{
-	height: 100%;
-	width: 100%;
-}
-.picplace p{
-	height: 8%;
-	text-align: center;
-	font-family: "楷体";
-	font-size: 20px;
-	color: #666;
-	font-weight: bolder;
-	background-color: #eee;
-	margin:0;
-}
-.picclose{
-	color: #ccc;
-	float: right;
-	margin-top:1%;
-	margin-right: 1.5%;
-}
-.picclose:hover{
-	color: #fff;
-}
+
 .leftarrow{
 	font-size: 25px;
 	color: #fff;

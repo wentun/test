@@ -1,0 +1,126 @@
+.simg{
+  margin: 10px 90px 10px 90px;
+}
+
+.simg img{
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.tab1{
+  margin: 50px 0 20px 0;
+}
+h3{
+  text-align: center;
+  font-size: 45px;
+  color: rgb(200, 164, 116);
+  font-weight: bold;
+  font-family: "宋体";
+  margin-bottom: 15px;
+}
+.tab2{
+  padding: 0;
+}
+.tab2 .container{
+  padding: 0;
+  margin: 0px 90px 0px 90px;
+}
+.tab2 img {
+    width: 100%;
+    height: 100%;
+}
+.row{
+  margin: 0;
+}
+.chead{
+  width: 100%;
+  background-color:  rgb(190, 164, 116);
+  border-radius: 7px 7px 0px 0px;
+}
+.chead .nav{
+  text-align: left;
+  position: relative;
+}
+.chead .nav .title{
+  font-size: 18px;
+  margin-left: 13px;
+  margin-right: 10px;
+}
+
+.chead .nav .active:after{
+  position: absolute;
+  border-left: 5px solid transparent;
+  border-right: 5px solid transparent;
+  border-bottom: 7px solid #f8f8f8;
+  content: "";
+  display: block;
+  width: 2px;
+  height: 0;
+  bottom: -10px;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.chead .nav li{
+  display: inline-block;
+  font-family: MFShangHei-Regular!important;
+  color: #eee;
+  margin: 9px 3px 9px 3px;
+}
+.morediv{
+  background-color: white;
+  text-align: left;
+  margin-bottom: 45px;
+}
+.morediv .row .col-md-4{
+  padding: 0;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.morediv .zan p{
+  display: inline-block;
+  margin-left: 15px;
+  margin-bottom: 4px;
+}
+.zan{
+    position: relative;
+}
+.zan :first-child{
+  display: inline-block;
+}
+.zan .howpeople{
+  width: 200px;
+  overflow: hidden;
+  white-space:nowrap;
+  text-overflow:ellipsis;
+}
+.glyphicon-hand-right{
+  top: -8px;
+  left: 5%;
+}
+.zongimg{
+  margin-top: 3px;
+  margin-bottom: 5px;
+}
+.zongimg:hover{
+  background-color: #eee;
+}
+.changezan{
+  display: inline-block;
+  position: absolute;
+  right: 10%;
+  top: 25%;
+  font-size: 22px;
+  color: #A8A8A8;
+}
+.people{
+  display: none;
+}
+.food{
+  display: none;
+}
+.flower{
+  display: none;
+}
+.already-zan{
+  
+}

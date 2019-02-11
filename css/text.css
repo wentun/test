@@ -1,0 +1,109 @@
+body{
+  	background: url();
+}
+.headbg{
+  width: 100%;
+  height: 500px;
+  background: url(../class/image/南极.jpg);
+  position: relative;
+}
+.headbg2{
+  width: 100%;
+  height: 500px;
+  background: url(../class/image/纽约.jpg);
+  position: relative;
+}
+.tab-h1{
+  position: absolute;
+	color:white;
+	text-align: center;
+	letter-spacing: 1px;
+  bottom: 0px;
+  left: 37%;
+  font-weight:600;
+  font-size: 45px;
+  font-family: "黑体";
+}
+.diva{
+  margin-left: 43%;
+  margin-top: 1%;
+}
+.diva a{
+    color:#AAAAAA;
+    font-size: 17px;
+}
+.mesg{
+  width: 700px;
+  color:#666;
+  font-size: 30px;
+  font-family: "黑体";
+  margin-left: 23%;
+  margin-top: 3%;
+  margin-bottom: 5%;
+}
+.hui{
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background-color: #333;
+  z-index: 90;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: none;
+  color: #ccc;
+}
+.hui span{
+  font-size: 20px;
+  margin: 0;
+}
+.hui div{
+  margin-top: 2%;
+  margin-bottom: 2%;
+  border-top: 1px solid white;
+}
+.row .col-md-6 {
+  overflow: hidden;
+}
+.row .col-md-3{
+  overflow: hidden;
+}
+
+.row .col-md-6 p{
+  position: absolute;
+  display: inline-block;
+  font-weight:600;
+  font-size: 27px;
+  font-family: "黑体";
+  color: white;
+  z-index: 10;
+  top: 260px;
+  left: 50px;
+}
+.row .col-md-3 p{
+  position: absolute;
+  display: inline-block;
+  font-weight:600;
+  font-size: 27px;
+  font-family: "黑体";
+  color: white;
+  z-index: 10;
+  top: 260px;
+  left: 50px;
+}
+.kong{
+  width: 100%;
+  height: 25px;
+}
+.instruct{
+  width: 700px;
+  margin-left: 27%;
+  font-size: 1.71rem;
+  color: #444;
+  font-family: "Arial Unicode MS",sans-serif;
+}
+.instruct a{
+  font-size: 17px;
+}
+.hiddeny{
+  display: none;
+}

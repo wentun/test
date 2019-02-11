@@ -1,0 +1,203 @@
+.thumbnail{
+padding: 0;
+margin: 0;
+text-align: center;
+}
+.jumbotron{
+  background-image: url(../class/image/tuijian.jpg);
+  padding: 0;
+  padding-top: 50px;
+  color: white;
+  position: relative;
+}
+.row-bg{
+  position: relative;
+}
+.fshow .glyphicon-qrcode{
+  position: absolute;
+  top: auto;
+  bottom: 3%;
+  right: 3%;
+  font-size: 50px;
+}
+
+hgroup{
+  color: #fff;
+}
+.jumbotron hgroup h2{
+  margin: 0;
+  padding-top: 30px;
+  padding-bottom: 20px;
+  text-align: center;
+}
+.jumbotron hgroup p{
+  margin: 0;
+  padding-bottom: 15px;
+}
+.palcebutton{
+  position: absolute;
+  left: 0.5%;
+}
+.palcebutton button{
+  padding: 5px 7px 5px 15px;
+  background-color: #ff010199;
+  border: 1.5px solid #ff1414;
+  border-radius:  5px;
+  color: #ffffffa8;
+  font-weight: bold;
+  font-size: 15px;
+  font-family: 'Audiowide';
+  text-align: center;
+  box-shadow: 0 0 10px #ff1414;
+}
+
+.palcebutton button:last-child{
+  margin-top: 20px;
+}
+.uploadarea{
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 14px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.uploadarea h3{
+  margin: 0;
+  margin-bottom: 3px;
+  padding-bottom: 3px;
+  background-color: #f5f5f5;
+}
+.uploadarea input{
+  display: inline-block;
+  margin-bottom: 5px;
+}
+.updownarea{
+  text-align: center;
+  border: 1px solid #ddd;
+  border-radius: 14px;
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+.updown{
+  display: inline-block;
+  text-align: center;
+
+}
+.updownarea h3{
+  margin: 0;
+  margin-bottom: 3px;
+  padding-bottom: 3px;
+  background-color: #f5f5f5;
+}
+.nshow{
+  display: none;
+  background-color: #fff;
+  position: absolute;
+  left: 5%;
+  margin-right: 30px;
+  padding: 0 15px 0 10px;
+}
+.sshow{
+  display: none;
+  background-color: #fff;
+  position: absolute;
+  left: 5%;
+  margin-right: 30px;
+  padding: 0 15px 0 10px;
+}
+.nshow img{
+  margin: 15px 0 15px 0;
+  display: inline-block;
+}
+.sshow img{
+  margin: 15px 0 15px 0;
+  display: inline-block;
+  width: 600px;
+  height: 400px;
+}
+.cooltext{
+  display: inline-block;
+  font-size: 55px;
+  position: absolute;
+  top: 80%;
+  right: 7%;
+  font-family: "楷体";
+  font-weight: 900;
+  color: #513a3ac9;
+  text-shadow: 0 0 20px #995c5c85;
+}
+.nshow h4{
+  margin: 15px 0 15px 0;
+  font-size: 30px;
+  color: #261d1dad;
+  text-shadow: 0 0 10px #5b5b5b38;
+}
+.sshow h4{
+  margin: 15px 0 15px 0;
+  font-size: 30px;
+  color: #261d1dad;
+  text-shadow: 0 0 10px #5b5b5b38;
+}
+.showmaxmesg .expian{
+  position: absolute;
+  right: 1%;
+  top: 3%;
+  font-size: 21px;
+  color: #593a3acc;;
+  font-weight: bold;
+}
+.showmaxmesg .glyphicon-fire{
+  position: absolute;
+  right: 3%;
+  top: 12%;
+  font-size: 65px;
+  color: #ff010199;
+  font-weight: bold;
+}
+.showmaxmesg .glyphicon-thumbs-up{
+  position: absolute;
+  right: 3%;
+  top: 29%;
+  font-size: 65px;
+  color: #54f140b8;
+  font-weight: bold;
+}
+.showmaxmesg .glyphicon-heart{
+  position: absolute;
+  right: 3%;
+  top: 29%;
+  font-size: 65px;
+  color: #343af9ab;
+  font-weight: bold;
+}
+.showmaxmesg .glyphicon-download-alt{
+  position: absolute;
+  right: 3%;
+  top: 45%;
+  font-size: 65px;
+  color: #343af9ab;
+  font-weight: bold;
+}
+.showmaxmesg .glyphicon-shopping-cart{
+  position: absolute;
+  right: 3%;
+  top: 45%;
+  font-size: 65px;
+  color: #54f140b8;
+  font-weight: bold;
+}
+.showmaxmesg .glyphicon-globe{
+  position: absolute;
+  right: 3%;
+  top: 63%;
+  font-size: 65px;
+  color: #5601ff99;
+  font-weight: bold;
+}
+.showmaxmesg .col-md-6{
+  font-family: 'Avenir Next','Lantinghei SC';
+}
+.showmaxmesg .col-md-6 p{
+  font-size: 14px;
+  color: black;
+}

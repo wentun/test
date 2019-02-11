@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1,maximum-scale=1, user-scalable=no">
+	<title></title>
+	<link rel="stylesheet"  href="../css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="../css/项目.css">
+  <link rel="stylesheet" type="text/css" href="../css/comment.css">
+</head>
+<body >
+	<nav class="navbar navbar-default navbar-fixed-top">
+		<div class="container">
+			<div class="navbar-header">
+				<a href="" class="navbar-brand tou" ><img src="image/tou2.jpg"></a>
+				<button class="navbar-toggle" data-toggle="collapse" data-target="#navbar-collapse"><span class="glyphicon glyphicon-list"></span></button>
+			</div>
+			<div class="collapse navbar-collapse "  id="navbar-collapse" >
+				<ul class="nav navbar-nav navbar-right daohang" >
+					<li ><a href="项目.html"><span class="glyphicon glyphicon-star"></span> 开始</a></li>
+					<li><a href="develop.html"><span class="glyphicon glyphicon-signal"></span> 发展 </a></li>
+					<li><a href="resoult.html"> <span class="glyphicon glyphicon-bookmark"></span>外卖</a></li>
+					<li class="active"><a href="comment.html"><span  class="glyphicon glyphicon-send"></span> 点评</a></li>
+					<li><a href="end.html"><span  class="glyphicon glyphicon-record"></span> 结束</a></li>
+					<li><a href="" data-toggle="dropdown"><span  class="glyphicon glyphicon-record"></span> 个人中心<span class="caret"></span></a>
+					<ul class="dropdown-menu">
+						<li><a href="javascript:showregister()">注册</a></li>
+						<li><a href="javascript:showlogin();">登录</a></li>
+						<li><a href="javascript:change();">换肤</a></li>
+					</ul>
+					</li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+  <div class="tab1">
+    <div class="simg">
+      <table>
+        <tr>
+          <td rowspan="2"><img src="image/shanmai.jpg" alt=""></td>
+          <td colspan="2"><img src="image/xunyicao.jpg" alt=""></td>
+          <td><img src="image/luoye.jpg" alt=""></td>
+          <td><img src="image/lishi.jpg" alt=""></td>
+        </tr>
+        <tr>
+          <td><img src="image/ycy.jpg" alt=""></td>
+          <td><img src="image/dlrb.jpg" alt=""></td>
+          <td colspan="2"><img src="image/lol.jpg" alt=""></td>
+        </tr>
+      </table>
+    </div>
+  </div>
+			<h3>点评首页</h3>
+  <div class="tab2">
+    <div class="container">
+      <div class="chead index-nav-container">
+        <ul class="nav">
+          <li class="nav-item title">领域</li>
+					<li class="nav-item active">世界风景</li>
+					<li class="nav-item">芳香花草</li>
+					<li class="nav-item">玲珑面孔</li>
+					<li class="nav-item">绝味美食</li>
+        </ul>
+      </div>
+      <div class="place morediv">
+        <div class="row">
+          <div class="col-md-4 col-sm-4">
+            <div class="zongimg">
+              <img src="image/bisa.jpg" alt="">
+              <div class="zan">
+								<div>
+									<p>比萨斜塔</p><br>
+									<span class="glyphicon glyphicon-hand-right"></span>&nbsp;<p class="howpeople">阿斯蒂芬，张三，李四，王五，麻溜，都是，发送到</p>
+								</div>
+								<div class="changezan">
+									<span class="glyphicon glyphicon-thumbs-up"></span>
+									<span class="showzan">4556</span>
+								</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4">
+						<div class="zongimg">
+              <img src="image/lundun.jpg" alt="">
+							<div class="zan">
+								<div >
+									<p>伦敦大桥</p><br>
+									<span class="glyphicon glyphicon-hand-right"></span>&nbsp;<p class="howpeople">阿斯蒂芬</p>
+								</div>
+								<div class="changezan">
+									<span class="glyphicon glyphicon-thumbs-up"></span>
+									<span class="showzan">789</span>
+								</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4">
+						<div class="zongimg">
+							<img src="image/changjiang.jpg" alt="">
+							<div class="zan">
+								<div >
+									<p>长江</p><br>
+									<span class="glyphicon glyphicon-hand-right"></span>&nbsp;<p class="howpeople">阿斯蒂芬</p>
+								</div>
+								<div class="changezan">
+									<span class="glyphicon glyphicon-thumbs-up"></span>
+									<span class="showzan">4556</span>
+								</div>
+              </div>
+						</div>
+          </div>
+        </div>
+				<div class="row">
+          <div class="col-md-4 col-sm-4">
+            <div class="zongimg">
+              <img src="image/huanghe.jpg" alt="">
+              <div class="zan">
+								<div >
+									<p>黄河</p><br>
+									<span class="glyphicon glyphicon-hand-right"></span>&nbsp;<p class="howpeople">阿斯蒂芬</p>
+								</div>
+								<div class="changezan">
+									<span class="glyphicon glyphicon-thumbs-up"></span>
+									<span class="showzan">4556</span>
+								</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4">
+						<div class="zongimg">
+              <img src="image/gugong.jpg" alt="">
+							<div class="zan">
+								<div >
+									<p>北京故宫</p><br>
+									<span class="glyphicon glyphicon-hand-right"></span><p class="howpeople">&nbsp;阿斯蒂芬</p>
+								</div>
+								<div class="changezan">
+									<span class="glyphicon glyphicon-thumbs-up"></span>
+									<span class="showzan">4556</span>
+								</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4">
+						<div class="zongimg">
+							<img src="image/pubu.jpg" alt="">
+							<div class="zan">
+								<div >
+									<p>刚果大瀑布</p><br>
+									<span class="glyphicon glyphicon-hand-right"></span>&nbsp;<p class="howpeople">阿斯蒂芬</p>
+								</div>
+								<div class="changezan">
+									<span class="glyphicon glyphicon-thumbs-up"></span>
+									<span class="showzan">4556</span>
+								</div>
+              </div>
+						</div>
+          </div>
+        </div>
+				<div class="row">
+					<div class="col-md-4 col-sm-4">
+						<div class="zongimg">
+							<img src="image/guilin.jpg" alt="">
+							<div class="zan">
+								<div >
+									<p>桂林山水</p><br>
+									<span class="glyphicon glyphicon-hand-right"></span>&nbsp;<p class="howpeople">阿斯蒂芬</p>
+								</div>
+								<div class="changezan">
+									<span class="glyphicon glyphicon-thumbs-up"></span>
+									<span class="showzan">4556</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<div class="zongimg">
+							<img src="image/taishan.jpg" alt="">
+							<div class="zan">
+								<div >
+									<p>东岳泰山</p><br>
+									<span class="glyphicon glyphicon-hand-right"></span>&nbsp;<p class="howpeople">阿斯蒂芬</p>
+								</div>
+								<div class="changezan">
+									<span class="glyphicon glyphicon-thumbs-up"></span>
+									<span class="showzan">4556</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<div class="zongimg">
+							<img src="image/shamo.jpg" alt="">
+							<div class="zan">
+								<div >
+									<p>撒哈拉大沙漠</p><br>
+									<span class="glyphicon glyphicon-hand-right"></span>&nbsp;<p class="howpeople">阿斯蒂芬</p>
+								</div>
+								<div class="changezan">
+									<span class="glyphicon glyphicon-thumbs-up"></span>
+									<span class="showzan">4556</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+      <div class="flower morediv">
+				<div class="row">
+          <div class="col-md-4 col-sm-4">
+            <div class="zongimg">
+              <img src="image/qingcao.jpg" alt="">
+              <div class="zan">
+								<div >
+									<p>青青小草</p><br>
+									<span class="glyphicon glyphicon-hand-right"></span>&nbsp;<p class="howpeople">阿斯蒂芬</p>
+								</div>
+								<div class="changezan">
+									<span class="glyphicon glyphicon-thumbs-up"></span>
+									<span class="showzan">4556</span>
+								</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4">
+						<div class="zongimg">
+              <img src="image/meihua.jpg" alt="">
+							<div class="zan">
+								<div >
+									<p>冬日傲梅</p><br>
+									<span class="glyphicon glyphicon-hand-right"></span>&nbsp;<p class="howpeople">阿斯蒂芬</p>
+								</div>
+								<div class="changezan">
+									<span class="glyphicon glyphicon-thumbs-up"></span>
+									<span class="showzan">4556</span>
+								</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4">
+						<div class="zongimg">
+							<img src="image/sanyecao.jpg" alt="">
+							<div class="zan">
+								<div >
+									<p>幸运三叶草</p><br>
+									<span class="glyphicon glyphicon-hand-right"></span>&nbsp;<p class="howpeople">阿斯蒂芬</p>
+								</div>
+								<div class="changezan">
+									<span class="glyphicon glyphicon-thumbs-up"></span>
+									<span class="showzan">4556</span>
+								</div>
+              </div>
+						</div>
+          </div>
+        </div>
+				<div class="row">
+          <div class="col-md-4 col-sm-4">
+            <div class="zongimg">
+              <img src="image/lingzhi.jpg" alt="">
+              <div class="zan">
+								<div >
+									<p>千年灵芝</p><br>
+									<span class="glyphicon glyphicon-hand-right"></span>&nbsp;<p class="howpeople">阿斯蒂芬</p>
+								</div>
+								<div class="changezan">
+									<span class="glyphicon glyphicon-thumbs-up"></span>
+									<span class="showzan">4556</span>
+								</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4">
+						<div class="zongimg">
+              <img src="image/meigui.jpg" alt="">
+							<div class="zan">
+								<div >
+									<p>烈焰玫瑰</p><br>
+									<span class="glyphicon glyphicon-hand-right"></span>&nbsp;<p class="howpeople">阿斯蒂芬</p>
+								</div>
+								<div class="changezan">
+									<span class="glyphicon glyphicon-thumbs-up"></span>
+									<span class="showzan">4556</span>
+								</div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-sm-4">
+						<div class="zongimg">
+							<img src="image/mudan.jpg" alt="">
+							<div class="zan">
+								<div >
+									<p>艳丽牡丹</p><br>
+									<span class="glyphicon glyphicon-hand-right"></span>&nbsp;<p class="howpeople">阿斯蒂芬</p>
+								</div>
+								<div class="changezan">
+									<span class="glyphicon glyphicon-thumbs-up"></span>
+									<span class="showzan">4556</span>
+								</div>
+              </div>
+						</div>
+          </div>
+        </div>
+				<div class="row">
+					<div class="col-md-4 col-sm-4">
+						<div class="zongimg">
+							<img src="image/haicao.jpg" alt="">
+							<div class="zan">
+								<div >
+									<p>水底海草</p><br>
+									<span class="glyphicon glyphicon-hand-right"></span>&nbsp;<p class="howpeople">阿斯蒂芬</p>
+								</div>
+								<div class="changezan">
+									<span class="glyphicon glyphicon-thumbs-up"></span>
+									<span class="showzan">4556</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<div class="zongimg">
+							<img src="image/lihua.jpg" alt="">
+							<div class="zan">
+								<div >
+									<p>初苞梨花</p><br>
+										<span class="glyphicon glyphicon-hand-right"></span>&nbsp;<p class="howpeople">阿斯蒂芬</p>
+								</div>
+								<div class="changezan">
+									<span class="glyphicon glyphicon-thumbs-up"></span>
+									<span class="showzan">4556</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<div class="zongimg">
+							<img src="image/yezi.jpg" alt="">
+							<div class="zan">
+								<div >
+									<p>沙滩叶子</p><br>
+									<span class="glyphicon glyphicon-hand-right"></span>&nbsp;<p class="howpeople">阿斯蒂芬</p>
+								</div>
+								<div class="changezan">
+									<span class="glyphicon glyphicon-thumbs-up"></span>
+									<span class="showzan">4556</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+      </div>
+
+      <div class="people morediv">
+				<div class="row">
+					<div class="col-md-4 col-sm-4">
+						<div class="zongimg">
+							<img src="image/ycy1.jpg" alt="">
+							<div class="zan">
+								<div >
+									<p>杨超越</p><br>
+									<span class="glyphicon glyphicon-hand-right"></span>&nbsp;<p class="howpeople">阿斯蒂芬</p>
+								</div>
+								<div class="changezan">
+									<span class="glyphicon glyphicon-thumbs-up"></span>
+									<span class="showzan">4556</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<div class="zongimg">
+							<img src="image/dlrb1.jpg" alt="">
+							<div class="zan">
+								<div >
+									<p>迪丽热巴</p><br>
+									<span class="glyphicon glyphicon-hand-right"></span>&nbsp;<p class="howpeople">阿斯蒂芬</p>
+								</div>
+								<div class="changezan">
+									<span class="glyphicon glyphicon-thumbs-up"></span>
+									<span class="showzan">4556</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<div class="zongimg">
+							<img src="image/erke.jpg" alt="">
+							<div class="zan">
+								<div >
+									<p>二珂</p><br>
+									<span class="glyphicon glyphicon-hand-right"></span>&nbsp;<p class="howpeople">阿斯蒂芬</p>
+								</div>
+								<div class="changezan">
+									<span class="glyphicon glyphicon-thumbs-up"></span>
+									<span class="showzan">4556</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 col-sm-4">
+						<div class="zongimg">
+							<img src="image/huge.jpg" alt="">
+							<div class="zan">
+								<div >
+									<p>胡歌</p><br>
+									<span class="glyphicon glyphicon-hand-right"></span>&nbsp;<p class="howpeople">阿斯蒂芬</p>
+								</div>
+								<div class="changezan">
+									<span class="glyphicon glyphicon-thumbs-up"></span>
+									<span class="showzan">4556</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<div class="zongimg">
+							<img src="image/zhou.jpg" alt="">
+							<div class="zan">
+								<div >
+									<p>周杰伦</p><br>
+									<span class="glyphicon glyphicon-hand-right"></span>&nbsp;<p class="howpeople">阿斯蒂芬</p>
+								</div>
+								<div class="changezan">
+									<span class="glyphicon glyphicon-thumbs-up"></span>
+									<span class="showzan">4556</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<div class="zongimg">
+							<img src="image/wanglihong.jpg" alt="">
+							<div class="zan">
+								<div >
+									<p>王力宏</p><br>
+									<span class="glyphicon glyphicon-hand-right"></span>&nbsp;<p class="howpeople">阿斯蒂芬</p>
+								</div>
+								<div class="changezan">
+									<span class="glyphicon glyphicon-thumbs-up"></span>
+									<span class="showzan">4556</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 col-sm-4">
+						<div class="zongimg">
+							<img src="image/zhouxingchi.jpg" alt="">
+							<div class="zan">
+								<div >
+									<p>周星驰</p><br>
+									<span class="glyphicon glyphicon-hand-right"></span>&nbsp;<p class="howpeople">阿斯蒂芬</p>
+								</div>
+								<div class="changezan">
+									<span class="glyphicon glyphicon-thumbs-up"></span>
+									<span class="showzan">4556</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<div class="zongimg">
+							<img src="image/aiweier.jpg" alt="">
+							<div class="zan">
+								<div >
+									<p>艾薇儿</p><br>
+									<span class="glyphicon glyphicon-hand-right"></span>&nbsp;<p class="howpeople">阿斯蒂芬</p>
+								</div>
+								<div class="changezan">
+									<span class="glyphicon glyphicon-thumbs-up"></span>
+									<span class="showzan">4556</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<div class="zongimg">
+							<img src="image/maozedong.jpg" alt="">
+							<div class="zan">
+								<div >
+									<p>毛泽东</p><br>
+									<span class="glyphicon glyphicon-hand-right"></span>&nbsp;<p class="howpeople">阿斯蒂芬</p>
+								</div>
+								<div class="changezan">
+									<span class="glyphicon glyphicon-thumbs-up"></span>
+									<span class="showzan">4556</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+      </div>
+
+      <div class="food morediv">
+				<div class="row">
+					<div class="col-md-4 col-sm-4">
+						<div class="zongimg">
+							<img src="image/shuijing.jpg" alt="">
+							<div class="zan">
+								<div >
+									<p>水晶蛋糕</p><br>
+									<span class="glyphicon glyphicon-hand-right"></span>&nbsp;<p class="howpeople">阿斯蒂芬</p>
+								</div>
+								<div class="changezan">
+									<span class="glyphicon glyphicon-thumbs-up"></span>
+									<span class="showzan">4556</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<div class="zongimg">
+							<img src="image/caomei.jpg" alt="">
+							<div class="zan">
+								<div >
+									<p>草莓奶昔</p><br>
+									<span class="glyphicon glyphicon-hand-right"></span>&nbsp;<p class="howpeople">阿斯蒂芬</p>
+								</div>
+								<div class="changezan">
+									<span class="glyphicon glyphicon-thumbs-up"></span>
+									<span class="showzan">4556</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<div class="zongimg">
+							<img src="image/lamian.jpg" alt="">
+							<div class="zan">
+								<div >
+									<p>河豚拉面</p><br>
+									<span class="glyphicon glyphicon-hand-right"></span>&nbsp;<p class="howpeople">阿斯蒂芬</p>
+								</div>
+								<div class="changezan">
+									<span class="glyphicon glyphicon-thumbs-up"></span>
+									<span class="showzan">4556</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 col-sm-4">
+						<div class="zongimg">
+							<img src="image/huoguo.jpg" alt="">
+							<div class="zan">
+								<div >
+									<p>小龙坎</p><br>
+									<span class="glyphicon glyphicon-hand-right"></span>&nbsp;<p class="howpeople">阿斯蒂芬</p>
+								</div>
+								<div class="changezan">
+									<span class="glyphicon glyphicon-thumbs-up"></span>
+									<span class="showzan">4556</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<div class="zongimg">
+							<img src="image/jibulu.jpg" alt="">
+							<div class="zan">
+								<div >
+									<p>吉布鲁牛排</p><br>
+									<span class="glyphicon glyphicon-hand-right"></span>&nbsp;<p class="howpeople">阿斯蒂芬</p>
+								</div>
+								<div class="changezan">
+									<span class="glyphicon glyphicon-thumbs-up"></span>
+									<span class="showzan">4556</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<div class="zongimg">
+							<img src="image/diwangxie.jpg" alt="">
+							<div class="zan">
+								<div >
+									<p>帝王蟹</p><br>
+									<span class="glyphicon glyphicon-hand-right"></span>&nbsp;<p class="howpeople">阿斯蒂芬</p>
+								</div>
+								<div class="changezan">
+									<span class="glyphicon glyphicon-thumbs-up"></span>
+									<span class="showzan">4556</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 col-sm-4">
+						<div class="zongimg">
+							<img src="image/caizhou.jpg" alt="">
+							<div class="zan">
+								<div >
+									<p>五谷粮粥</p><br>
+									<span class="glyphicon glyphicon-hand-right"></span>&nbsp;<p class="howpeople">阿斯蒂芬</p>
+								</div>
+								<div class="changezan">
+									<span class="glyphicon glyphicon-thumbs-up"></span>
+									<span class="showzan">4556</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<div class="zongimg">
+							<img src="image/shousi.jpg" alt="">
+							<div class="zan">
+								<div >
+									<p>日本寿司</p><br>
+									<span class="glyphicon glyphicon-hand-right"></span>&nbsp;<p class="howpeople">阿斯蒂芬</p>
+								</div>
+								<div class="changezan">
+									<span class="glyphicon glyphicon-thumbs-up"></span>
+									<span class="showzan">4556</span>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 col-sm-4">
+						<div class="zongimg">
+							<img src="image/kaorou.jpg" alt="">
+							<div class="zan">
+								<div >
+									<p>韩国烤肉</p><br>
+									<span class="glyphicon glyphicon-hand-right"></span>&nbsp;<p class="howpeople">阿斯蒂芬</p>
+								</div>
+								<div class="changezan">
+									<span class="glyphicon glyphicon-thumbs-up"></span>
+									<span class="showzan">4556</span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+      </div>
+
+    </div>
+  </div>
+
+	<footer id="footer">
+		<div class="container">
+			<p>欢迎前来点评</p>
+			<P>电话3031188</P>
+		</div>
+	</footer>
+<script src="../js/jquery.min.js"></script>
+<script src="../js/bootstrap.min.js"></script>
+<script src="../js/项目.js"></script>
+<script src="../js/comment.js"></script>
+
+
+</body>
+</html>

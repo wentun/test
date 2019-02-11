@@ -36,7 +36,7 @@ body{
   top: 0;
   right: 0;
   padding: 35px;
-  -webkit-border-radius: 50px 50px;
+  -webkit-border-radius: 40px 40px;
   box-sizing: border-box;/* 不破坏盒模型 */
 }
 .photo-center .side{
@@ -55,15 +55,16 @@ body{
 }
 .photo .side-front .caption{
   text-align: center;
-  font-size: 23px;
+  font-size: 21px;
   font-weight: bold;
+  padding-right: 10px;
   /*line-height: 50px;*/
   /* margin-top: -15px; */
   font-family: 'Lato', Arial, sans-serif;
 }
 .photo .side-back .desc{
-
-  font-size: 14px;
+  text-align: center;
+  font-size: 17px;
   color: #666;
   line-height: 1.5em;
 }
@@ -77,10 +78,13 @@ body{
 }
 .photo-warp{
   position: absolute;
-  width: 100%;
+  width: 95%;
   height: 100%;
   -webkit-transform-style: preserve-3d;
   -webkit-transition: all 1s;
+}
+.photo-warp .side{
+  padding: 25px 15px 35px 21px;
 }
 .photo-warp .side-front{
   -webkit-transform: rotateY(0deg);
